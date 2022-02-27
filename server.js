@@ -22,6 +22,7 @@ app.use(errorHandler);
 
 // Port binding and start the app
 const port = process.env.PORT || 5000;
-app.listen(port, () => {
+const hostname = process.env.HOSTNAME || localhost;
+app.listen(port, hostname, () => {
   console.log(`App is running on port ${port}, waiting for database..`);
 });
