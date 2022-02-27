@@ -25,6 +25,13 @@ const port = process.env.PORT || 5000;
 const hostname = process.env.HOSTNAME || localhost;
 
 // Start the app
-app.listen(port, hostname, () => {
+const server = app.listen(port, hostname, () => {
   console.log(`App is running on port ${port}, waiting for database..`);
+});
+
+// Graceful shutdown
+process.on('SIGTERM', () => {
+  server.close(() => {
+    console.log("Process terminated");
+  });
 });
