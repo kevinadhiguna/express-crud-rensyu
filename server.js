@@ -20,9 +20,11 @@ app.use("/api/goals", goalRoutes);
 const { errorHandler } = require("./middleware/errorHandler");
 app.use(errorHandler);
 
-// Port binding and start the app
+// Determine port and host/hostname
 const port = process.env.PORT || 5000;
 const hostname = process.env.HOSTNAME || localhost;
+
+// Start the app
 app.listen(port, hostname, () => {
   console.log(`App is running on port ${port}, waiting for database..`);
 });
