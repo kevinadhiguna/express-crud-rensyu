@@ -11,6 +11,6 @@ services:
       PORT: ${PORT:-5000}
       MONGO_URI: ${MONGO_URI}
       JWT_SECRET: ${JWT_SECRET:-Ai9Kd3Jn0Nk2Tf1Nv5Vn}
-      JWT_EXPIRY: ${JWT_EXPIRY}
+      JWT_EXPIRY: ${JWT_EXPIRY:-1d}
     ports:
       - 5000:5000
