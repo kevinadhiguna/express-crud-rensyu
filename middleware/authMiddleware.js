@@ -33,7 +33,7 @@ const protect = asyncHandler(async (req, res, next) => {
   // If token does not exist in request headers
   if (!token) {
     res.status(401);
-    throw new Error("Not authorized");
+    throw new Error("Not authorized, no token");
   }
 });
 
