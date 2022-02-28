@@ -22,7 +22,7 @@ app.use(errorHandler);
 
 // Determine port and host/hostname
 const port = process.env.PORT || 5000;
-const hostname = process.env.HOSTNAME || localhost;
+const hostname = process.env.HOSTNAME || "localhost";
 
 // Start the app
 const server = app.listen(port, hostname, () => {
