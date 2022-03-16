@@ -22,12 +22,12 @@ const errorHandler = require("./middleware/errorHandler");
 app.use(errorHandler);
 
 // Determine port and host/hostname
-const port = process.env.PORT || 5000;
-const hostname = process.env.HOSTNAME || "localhost";
+const PORT = process.env.PORT || 5000;
+const HOSTNAME = process.env.HOSTNAME || "localhost";
 
 // Start the app
-const server = app.listen(port, hostname, () => {
-  console.log(`App is running on port ${port}, waiting for database..`);
+const server = app.listen(PORT, HOSTNAME, () => {
+  console.log(`App is running on ${HOSTNAME}:${PORT}, waiting for database..`);
 });
 
 // Graceful shutdown
