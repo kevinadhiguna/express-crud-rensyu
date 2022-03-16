@@ -32,6 +32,15 @@ const server = app.listen(PORT, HOSTNAME, () => {
   console.log(`App is running on ${HOSTNAME}:${PORT}, waiting for database..`);
 });
 
+// Handling interrupt signal (SIGINT), such as Ctrl + C
+process.on("SIGINT", () => {
+  console.log("\nReceiving SIGINT, process interrupted..");
+  server.close((errSigint) => {
+    console.log(`Error closing server after receiving SIGINT : ${errSigint}`);
+  });
+  process.exit();
+});
+
 // Graceful shutdown
 process.on("SIGTERM", () => {
   server.close(() => {
