@@ -10,7 +10,7 @@ const {
 } = require("../controllers/goalController");
 
 // Import auth middleware
-const { protect } = require("../middleware/authMiddleware");
+const protect = require("../middleware/authMiddleware");
 
 // Get goals
 router.get("/", protect, getGoals);

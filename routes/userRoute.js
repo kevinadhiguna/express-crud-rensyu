@@ -9,7 +9,7 @@ const {
 } = require("../controllers/userController");
 
 // Import auth middleware
-const { protect } = require("../middleware/authMiddleware");
+const protect = require("../middleware/authMiddleware");
 
 // Register
 router.post("/", registerUser);
