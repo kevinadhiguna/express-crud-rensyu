@@ -14,8 +14,10 @@ app.use(express.urlencoded({ extended: false }));
 // Register routes
 const userRoutes = require("./routes/userRoute");
 const goalRoutes = require("./routes/goalRoute");
+const healthcheckRoutes = require("./routes/healthcheckRoute");
 app.use("/api/users", userRoutes);
 app.use("/api/goals", goalRoutes);
+app.use("/healthcheck", healthcheckRoutes);
 
 // Use custom error handler
 const errorHandler = require("./middleware/errorHandler");
