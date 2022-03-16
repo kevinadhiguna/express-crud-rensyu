@@ -17,7 +17,7 @@ app.use("/api/users", userRoutes);
 app.use("/api/goals", goalRoutes);
 
 // Use custom error handler
-const { errorHandler } = require("./middleware/errorHandler");
+const errorHandler = require("./middleware/errorHandler");
 app.use(errorHandler);
 
 // Determine port and host/hostname
