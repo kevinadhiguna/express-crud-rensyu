@@ -5,7 +5,8 @@
   "license": "MIT",
   "scripts": {
     "start": "node server.js",
-    "dev": "nodemon server.js"
+    "dev": "nodemon server.js",
+    "check": "prettier --check \"./**/*.{js,json}\""
   },
   "dependencies": {
     "bcryptjs": "^2.4.3",
