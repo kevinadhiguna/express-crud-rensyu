@@ -43,7 +43,8 @@ process.on("SIGINT", () => {
 
 // Graceful shutdown
 process.on("SIGTERM", () => {
-  server.close(() => {
-    console.log("Process terminated");
+  console.log("\nReceiving SIGTERM, process terminated..");
+  server.close((errSigterm) => {
+    console.log(`Error closing server after receiving SIGTERM : ${errSigterm}`);
   });
 });
