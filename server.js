@@ -6,8 +6,9 @@ require("dotenv").config();
 const connectDB = require("./config/db");
 connectDB();
 
-// JSON
+// Parse JSON
 app.use(express.json());
+// Parse x-www-urlencoded
 app.use(express.urlencoded({ extended: false }));
 
 // Register routes
