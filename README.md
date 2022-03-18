@@ -1,8 +1,8 @@
-# ExpressJS - CRUD API (example-2)
+# ExpressJS - CRUD API (example-3)
 
 ## Additional feature(s)/change(s) :
 
-- Healthcheck
+- Apply [HelmetJS](https://helmetjs.github.io/)
 
 <br />
 
