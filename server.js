@@ -11,6 +11,10 @@ app.use(express.json());
 // Parse x-www-urlencoded
 app.use(express.urlencoded({ extended: false }));
 
+// Import and implement Helmet
+const helmet = require("helmet");
+app.use(helmet());
+
 // Register routes
 const userRoutes = require("./routes/userRoute");
 const goalRoutes = require("./routes/goalRoute");
