@@ -17,6 +17,7 @@
     "express-async-handler": "^1.2.0",
     "helmet": "^5.0.2",
     "jsonwebtoken": "^8.5.1",
+    "lil-http-terminator": "^1.2.2",
     "mongoose": "^6.2.2"
   },
   "devDependencies": {
