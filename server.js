@@ -89,4 +89,5 @@ process.on("SIGTERM", shutdown);
 
 // Events
 process.on("unhandledRejection", shutdown);
+// The correct use of 'uncaughtException' is to perform synchronous cleanup of allocated resources (e.g. file descriptors, handles, etc) before shutting down the process. It is not safe to resume normal operation after 'uncaughtException'. (For more: https://nodejs.org/api/process.html#process_warning_using_uncaughtexception_correctly)
 process.on("uncaughtException", shutdown);
