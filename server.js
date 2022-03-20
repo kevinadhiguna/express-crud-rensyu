@@ -15,6 +15,25 @@ app.use(express.urlencoded({ extended: false }));
 const helmet = require("helmet");
 app.use(helmet());
 
+// Import and implement CORS
+const cors = require("cors");
+
+const corsOptionsDev = {
+  origin: "http://localhost:3000",
+  methods: "GET,HEAD,PUT,PATCH,POST,DELETE",
+};
+const allowedOrigins =
+  process.env.ALLOWED_ORIGINS.split(",") || "http://localhost:3000";
+const corsOptionsProd = {
+  origin: allowedOrigins,
+  credentials: true,
+  methods: "GET,HEAD,PUT,PATCH,POST,DELETE",
+};
+
+const appCorsConfig =
+  process.env.NODE_ENV == "production" ? corsOptionsProd : corsOptionsDev;
+app.use(cors(appCorsConfig));
+
 // Register routes
 const userRoutes = require("./routes/userRoute");
 const goalRoutes = require("./routes/goalRoute");
