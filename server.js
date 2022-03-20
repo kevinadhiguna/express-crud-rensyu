@@ -75,7 +75,7 @@ async function shutdown(signalOrEvent) {
       Message: ${message},
       Error (if exists): ${error || ""}
   `);
-  process.exit(0);
+  process.exit(error ? 1 : 0);
 }
 
 // Signal
