@@ -3,6 +3,7 @@
 ## Additional feature(s)/change(s) :
 
 - Apply [HelmetJS](https://helmetjs.github.io/)
+- Apply CORS (Cross-Origin Resource Sharing)
 
 <br />
 
