@@ -27,7 +27,10 @@ A goal API powered by ExpressJS, MongoDB, and Mongoose object data modeling (ODM
 7. Explore more regarding healthcheck and graceful shutdown using some libraries : https://expressjs.com/en/advanced/healthcheck-graceful-shutdown.html
 [ <b>Done</b> - example-4 branch ] 
 
-8. Add PM2 as process mmanager : https://blog.appsignal.com/2022/03/09/a-complete-guide-to-nodejs-process-management-with-pm2.html
+8. Add PM2 as process mmanager : 
+
+- https://pm2.keymetrics.io/docs/usage/process-management/
+- https://blog.appsignal.com/2022/03/09/a-complete-guide-to-nodejs-process-management-with-pm2.html
 
 9. Add how to handle uncaughtException OR unexpectedErrorHandler & unhandledRejection OR unexpectedErrorHandler : https://github.com/poolapack/payment-formatter/blob/dev/src/index.js [ <b>Done</b> - example-4 branch ]
 
