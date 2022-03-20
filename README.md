@@ -15,7 +15,7 @@ A goal API powered by ExpressJS, MongoDB, and Mongoose object data modeling (ODM
 
 3. Make use of HelmetJS to enhance security : https://helmetjs.github.io/ [ <b>Done</b> - example-3 branch ]
 
-4. Use compression library : https://github.com/expressjs/compression
+4. Use compression library : https://github.com/expressjs/compression [ <b>Done</b> - example-4 branch ]
 
 5. Install logging library (Winston) : 
 
