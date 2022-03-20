@@ -85,20 +85,3 @@ process.on("SIGTERM", shutdown);
 // Events
 process.on("unhandledRejection", shutdown);
 process.on("uncaughtException", shutdown);
-
-// Handling interrupt signal (SIGINT), such as Ctrl + C
-process.on("SIGINT", () => {
-  console.log("\nReceiving SIGINT, process interrupted..");
-  server.close((errSigint) => {
-    console.log(`Error closing server after receiving SIGINT : ${errSigint}`);
-  });
-  process.exit();
-});
-
-// Graceful shutdown
-process.on("SIGTERM", () => {
-  console.log("\nReceiving SIGTERM, process terminated..");
-  server.close((errSigterm) => {
-    console.log(`Error closing server after receiving SIGTERM : ${errSigterm}`);
-  });
-});
