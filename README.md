@@ -22,7 +22,7 @@ A goal API powered by ExpressJS, MongoDB, and Mongoose object data modeling (ODM
 - https://betterstack.com/community/guides/logging/node-js/how-to-install-setup-and-use-winston-and-morgan-to-log-node-js-applications/
 - https://github.com/winstonjs/winston
 
-6. Please add some of best performance practices : https://expressjs.com/en/advanced/best-practice-performance.html
+6. Please add some of best performance practices : https://expressjs.com/en/advanced/best-practice-performance.html [ <b>Done</b> reading - Looking forward to implement Supervisor (process manager), handle error properly, and learn more about reverse proxy. ]
 
 7. Explore more regarding healthcheck and graceful shutdown using some libraries : https://expressjs.com/en/advanced/healthcheck-graceful-shutdown.html
 [ <b>Done</b> - example-4 branch ] 
