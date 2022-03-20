@@ -1,9 +1,8 @@
-# ExpressJS - CRUD API (example-3)
+# ExpressJS - CRUD API (example-4)
 
 ## Additional feature(s)/change(s) :
 
-- Apply [HelmetJS](https://helmetjs.github.io/)
-- Apply CORS (Cross-Origin Resource Sharing)
+- Implement unhandledRejection, uncaughtException, SIGINT, SIGTERM handler (Graceful shutdown), powered by [lil-http-terminator](https://github.com/flash-oss/lil-http-terminator).
 
 <br />
 
