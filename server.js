@@ -11,6 +11,11 @@ app.use(express.json());
 // Parse x-www-urlencoded
 app.use(express.urlencoded({ extended: false }));
 
+// Use gzip compression
+const compression = require("compression");
+// Attempt to compress response bodies for all request that traverse through the middleware (For more: https://github.com/expressjs/compression)
+app.use(compression());
+
 // Import and implement Helmet
 const helmet = require("helmet");
 app.use(helmet());
