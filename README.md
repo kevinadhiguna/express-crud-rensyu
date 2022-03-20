@@ -13,7 +13,7 @@ A goal API powered by ExpressJS, MongoDB, and Mongoose object data modeling (ODM
 
 2. Display Hostname, IP, etc. : https://expressjs.com/en/4x/api.html#req.hostname
 
-3. Make use of HelmetJS to enhance security : https://helmetjs.github.io/
+3. Make use of HelmetJS to enhance security : https://helmetjs.github.io/ [ <b>Done</b> - example-3 branch ]
 
 4. Use compression library : https://github.com/expressjs/compression
 
@@ -22,7 +22,7 @@ A goal API powered by ExpressJS, MongoDB, and Mongoose object data modeling (ODM
 6. Please add some of best performance practices : https://expressjs.com/en/advanced/best-practice-performance.html
 
 7. Explore more regarding healthcheck and graceful shutdown using some libraries : https://expressjs.com/en/advanced/healthcheck-graceful-shutdown.html
-[ <b>Done</b> - example-3 branch using lil-http-terminator ] 
+[ <b>On Progress..</b> - healthcheck done, graceful shutdown will be implemented soon. ] 
 
 8. Add PM2 as process mmanager : https://blog.appsignal.com/2022/03/09/a-complete-guide-to-nodejs-process-management-with-pm2.html
 
