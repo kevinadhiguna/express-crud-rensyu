@@ -31,7 +31,7 @@ A goal API powered by ExpressJS, MongoDB, and Mongoose object data modeling (ODM
 
 9. Add how to handle uncaughtException OR unexpectedErrorHandler & unhandledRejection OR unexpectedErrorHandler : https://github.com/poolapack/payment-formatter/blob/dev/src/index.js
 
-10. Add CORS : https://github.com/shawn-dsilva/mern-login-signup-component/blob/master/server.js
+10. Add CORS : https://github.com/shawn-dsilva/mern-login-signup-component/blob/master/server.js [ <b>Done</b> - example-3 branch ]
 
 <br />
 
