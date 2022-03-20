@@ -33,6 +33,15 @@ A goal API powered by ExpressJS, MongoDB, and Mongoose object data modeling (ODM
 
 10. Add CORS : https://github.com/shawn-dsilva/mern-login-signup-component/blob/master/server.js [ <b>Done</b> - example-3 branch ]
 
+> [ExpressJS docs](https://expressjs.com/en/advanced/best-practice-performance.html#handle-exceptions-properly): One thing you should NOT DO is to listen for the uncaughtException event, emitted when an exception bubbles all the way back to the event loop. (For more: )
+
+> [Stackoverflow answer](https://stackoverflow.com/a/40867663): Also remember that it is not safe to resume normal operation after 'uncaughtException', because the system becomes corrupted :
+
+    The correct use of 'uncaughtException' is to perform synchronous cleanup of allocated resources (e.g. file descriptors, handles, etc) before shutting down the process.
+
+
+11. Given above, should one listen to uncaughtException event ? Do a research.
+
 <br />
 
 ## Why do I need "next()" function ?
