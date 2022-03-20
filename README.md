@@ -40,7 +40,7 @@ A goal API powered by ExpressJS, MongoDB, and Mongoose object data modeling (ODM
     The correct use of 'uncaughtException' is to perform synchronous cleanup of allocated resources (e.g. file descriptors, handles, etc) before shutting down the process.
 
 
-11. Given above, should one listen to uncaughtException event ? Do a research. [ <b>Done</b> - uncaughtException should be handled. Let the process crash and restart again using an external monitor (process manager) that runs as an another process. Source: [NodeJS docs](https://nodejs.org/api/process.html#process_warning_using_uncaughtexception_correctly) ]
+11. Given above, should one listen to uncaughtException event ? Do a research. [ <b>Done</b> - uncaughtException should be handled. Let the process crash and restart again using an external monitor (process manager) that runs as an another process. Source: [NodeJS docs](https://nodejs.org/api/process.html#process_warning_using_uncaughtexception_correctly) & [Heroku](https://blog.heroku.com/best-practices-nodejs-errors#javascript-error-events) ]
 
 <br />
 
