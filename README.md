@@ -17,7 +17,10 @@ A goal API powered by ExpressJS, MongoDB, and Mongoose object data modeling (ODM
 
 4. Use compression library : https://github.com/expressjs/compression
 
-5. Install logging library (Winston) : https://github.com/winstonjs/winston
+5. Install logging library (Winston) : 
+
+- https://betterstack.com/community/guides/logging/node-js/how-to-install-setup-and-use-winston-and-morgan-to-log-node-js-applications/
+- https://github.com/winstonjs/winston
 
 6. Please add some of best performance practices : https://expressjs.com/en/advanced/best-practice-performance.html
 
