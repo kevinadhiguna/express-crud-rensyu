@@ -1,9 +1,8 @@
-# ExpressJS - CRUD API (example-4)
+# ExpressJS - CRUD API (example-5)
 
 ## Additional feature(s)/change(s) :
 
-- Implement unhandledRejection, uncaughtException, SIGINT, SIGTERM handler (Graceful shutdown), powered by [lil-http-terminator](https://github.com/flash-oss/lil-http-terminator).
-- Compress response bodies using [compression](https://github.com/expressjs/compression).
+- Add [PM2](https://github.com/Unitech/pm2) as process manager.
 
 <br />
 
