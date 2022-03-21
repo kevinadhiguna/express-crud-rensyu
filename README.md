@@ -90,6 +90,8 @@ A goal API powered by ExpressJS, MongoDB, and Mongoose object data modeling (ODM
 
 12. Add validation using [Joi](https://joi.dev/api/?v=17.6.0)
 
+- [MERN - user validation example using Joi](https://github.com/shawn-dsilva/mern-login-signup-component/blob/master/utils/userValidations.js)
+
 [ <b>Will do</b> ]
 
 <br />
