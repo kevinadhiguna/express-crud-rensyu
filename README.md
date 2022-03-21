@@ -11,9 +11,13 @@ A goal API powered by ExpressJS, MongoDB, and Mongoose object data modeling (ODM
 - https://www.joyent.com/node-js/production/design/errors
 - https://strongloop.com/strongblog/robust-node-applications-error-handling/
 
+[ <b>Will do</b> ]
+
 <br />
 
 2. Display Hostname, IP, etc. : https://expressjs.com/en/4x/api.html#req.hostname
+
+[ <b>Will do</b> ]
 
 <br />
 
@@ -33,6 +37,8 @@ A goal API powered by ExpressJS, MongoDB, and Mongoose object data modeling (ODM
 
 - https://betterstack.com/community/guides/logging/node-js/how-to-install-setup-and-use-winston-and-morgan-to-log-node-js-applications/
 - https://github.com/winstonjs/winston
+
+[ <b>Will do</b> ]
 
 <br />
 
