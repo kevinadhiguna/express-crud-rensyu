@@ -88,6 +88,12 @@ A goal API powered by ExpressJS, MongoDB, and Mongoose object data modeling (ODM
 
 <br />
 
+12. Add validation using [Joi](https://joi.dev/api/?v=17.6.0)
+
+[ <b>Will do</b> ]
+
+<br />
+
 ## Why do I need "next()" function ?
 
 Read ExpressJS Middleware : https://expressjs.com/en/guide/writing-middleware.html
