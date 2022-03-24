@@ -19,6 +19,7 @@ A goal API powered by ExpressJS, MongoDB, and Mongoose object data modeling (ODM
 
 - https://expressjs.com/en/4x/api.html#req.hostname
 - https://www.tutsmake.com/node-js-express-get-client-ip-address-tutorial/
+- [inside Request - ExpressJS docs](https://expressjs.com/en/4x/api.html#req)
 
 [ <b>Will do</b> ]
 
