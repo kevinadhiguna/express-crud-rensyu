@@ -15,7 +15,10 @@ A goal API powered by ExpressJS, MongoDB, and Mongoose object data modeling (ODM
 
 <br />
 
-2. Display Hostname, IP, etc. : https://expressjs.com/en/4x/api.html#req.hostname
+2. Display Hostname, IP, etc. : 
+
+- https://expressjs.com/en/4x/api.html#req.hostname
+- https://www.tutsmake.com/node-js-express-get-client-ip-address-tutorial/
 
 [ <b>Will do</b> ]
 
