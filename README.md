@@ -100,6 +100,14 @@ A goal API powered by ExpressJS, MongoDB, and Mongoose object data modeling (ODM
 
 <br />
 
+13. Prevent bruteforce attack
+
+- [Prevent Brute Force Attacks in Node.JS - Medium](https://levelup.gitconnected.com/prevent-brute-force-attacks-in-node-js-419367ae35e6)
+
+[ <b>Will do</b> ]
+
+<br />
+
 ## Why do I need "next()" function ?
 
 Read ExpressJS Middleware : https://expressjs.com/en/guide/writing-middleware.html
