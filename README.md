@@ -108,6 +108,14 @@ A goal API powered by ExpressJS, MongoDB, and Mongoose object data modeling (ODM
 
 <br />
 
+14. Deploy ExpressJS to Vercel
+
+- [Deploy ExpressJS to Vercel - dev.to](https://dev.to/hte305/deploy-express-js-app-to-vercel-38jb)
+
+[ <b>Will do</b> ]
+
+<br />
+
 ## Why do I need "next()" function ?
 
 Read ExpressJS Middleware : https://expressjs.com/en/guide/writing-middleware.html
