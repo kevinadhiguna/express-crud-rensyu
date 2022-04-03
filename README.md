@@ -116,6 +116,14 @@ A goal API powered by ExpressJS, MongoDB, and Mongoose object data modeling (ODM
 
 <br />
 
+15. Add multistage Docker build
+
+- [Use Node.js with Docker and Docker Compose to improve DX - Blog Rocket](https://blog.logrocket.com/node-js-docker-improve-dx/)
+
+[ <b>Will do</b> ]
+
+<br />
+
 ## Why do I need "next()" function ?
 
 Read ExpressJS Middleware : https://expressjs.com/en/guide/writing-middleware.html
