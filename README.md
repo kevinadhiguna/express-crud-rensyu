@@ -40,6 +40,7 @@ A goal API powered by ExpressJS, MongoDB, and Mongoose object data modeling (ODM
 5. Install logging library (Winston) : 
 
 - https://betterstack.com/community/guides/logging/node-js/how-to-install-setup-and-use-winston-and-morgan-to-log-node-js-applications/
+- https://signoz.io/blog/winston-logger/#what-are-transports-in-winston-logger
 - https://github.com/winstonjs/winston
 
 [ <b>Will do</b> ]
