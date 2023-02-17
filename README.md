@@ -33,7 +33,7 @@ A goal API powered by ExpressJS, MongoDB, and Mongoose object data modeling (ODM
 
 4. Use compression library : https://github.com/expressjs/compression 
 
-[ <b>Done</b> - `additional-compression_healthcheck_handleEvent` branch ]
+[ <b>Done</b> - `additional-compression_lil-http-terminator` branch ]
 
 <br />
 
@@ -55,7 +55,7 @@ A goal API powered by ExpressJS, MongoDB, and Mongoose object data modeling (ODM
 
 7. Explore more regarding healthcheck and graceful shutdown using some libraries : https://expressjs.com/en/advanced/healthcheck-graceful-shutdown.html 
 
-[ <b>Done</b> - `additional-compression_healthcheck_handleEvent` branch ] 
+[ <b>Done</b> - `additional-healthcheck_graceful-shutdown` branch ] 
 
 <br />
 
@@ -70,7 +70,7 @@ A goal API powered by ExpressJS, MongoDB, and Mongoose object data modeling (ODM
 
 9. Add how to handle uncaughtException OR unexpectedErrorHandler & unhandledRejection OR unexpectedErrorHandler : https://github.com/poolapack/payment-formatter/blob/dev/src/index.js 
 
-[ <b>Done</b> - `additional-compression_healthcheck_handleEvent` branch ]
+[ <b>Done</b> - `additional-compression_lil-http-terminator` branch ]
 
 <br />
 
