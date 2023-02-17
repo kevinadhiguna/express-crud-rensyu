@@ -27,13 +27,13 @@ A goal API powered by ExpressJS, MongoDB, and Mongoose object data modeling (ODM
 
 3. Make use of HelmetJS to enhance security : https://helmetjs.github.io/ 
 
-[ <b>Done</b> - example-3 branch ]
+[ <b>Done</b> - `additional-cors_and_helmetjs` branch ]
 
 <br />
 
 4. Use compression library : https://github.com/expressjs/compression 
 
-[ <b>Done</b> - example-4 branch ]
+[ <b>Done</b> - `additional-compression_healthcheck_handleEvent` branch ]
 
 <br />
 
@@ -55,7 +55,7 @@ A goal API powered by ExpressJS, MongoDB, and Mongoose object data modeling (ODM
 
 7. Explore more regarding healthcheck and graceful shutdown using some libraries : https://expressjs.com/en/advanced/healthcheck-graceful-shutdown.html 
 
-[ <b>Done</b> - example-4 branch ] 
+[ <b>Done</b> - `additional-compression_healthcheck_handleEvent` branch ] 
 
 <br />
 
@@ -64,19 +64,19 @@ A goal API powered by ExpressJS, MongoDB, and Mongoose object data modeling (ODM
 - https://pm2.keymetrics.io/docs/usage/process-management/
 - https://blog.appsignal.com/2022/03/09/a-complete-guide-to-nodejs-process-management-with-pm2.html
 
-[ <b>On Progress..</b> ]
+[ <b>On Progress..</b> - `additional-pm2` branch ]
 
 <br />
 
 9. Add how to handle uncaughtException OR unexpectedErrorHandler & unhandledRejection OR unexpectedErrorHandler : https://github.com/poolapack/payment-formatter/blob/dev/src/index.js 
 
-[ <b>Done</b> - example-4 branch ]
+[ <b>Done</b> - `additional-compression_healthcheck_handleEvent` branch ]
 
 <br />
 
 10. Add CORS : https://github.com/shawn-dsilva/mern-login-signup-component/blob/master/server.js 
 
-[ <b>Done</b> - example-3 branch ]
+[ <b>Done</b> - `additional-cors_and_helmetjs` branch ]
 
 <br />
 
