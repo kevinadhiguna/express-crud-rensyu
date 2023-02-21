@@ -43,7 +43,7 @@ A goal API powered by ExpressJS, MongoDB, and Mongoose object data modeling (ODM
 - https://signoz.io/blog/winston-logger/#what-are-transports-in-winston-logger
 - https://github.com/winstonjs/winston
 
-[ <b>Will do</b> ]
+[ <b>On Progress...</b> - `additional-winston` branch ]
 
 <br />
 
