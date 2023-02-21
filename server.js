@@ -2,6 +2,11 @@ const express = require("express");
 const app = express();
 require("dotenv").config();
 
+// Logger
+const logger = require('./utils/logger');
+logger.debug('Logger debug from Winston');
+logger.log('Logger log from Winston');
+
 // Connect to Database
 const connectDB = require("./config/db");
 connectDB();
