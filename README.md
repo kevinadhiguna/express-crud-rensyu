@@ -1,8 +1,8 @@
-# ExpressJS - CRUD API (example-5)
+# ExpressJS - CRUD API (additional-winston)
 
 ## Additional feature(s)/change(s) :
 
-- Add [PM2](https://github.com/Unitech/pm2) as process manager.
+- Add [Winston](https://github.com/winstonjs/winston) as a logger.
 
 <br />
 
