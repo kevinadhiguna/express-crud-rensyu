@@ -41,6 +41,7 @@ A goal API powered by ExpressJS, MongoDB, and Mongoose object data modeling (ODM
 
 - https://betterstack.com/community/guides/logging/node-js/how-to-install-setup-and-use-winston-and-morgan-to-log-node-js-applications/
 - https://signoz.io/blog/winston-logger/#what-are-transports-in-winston-logger
+- https://reflectoring.io/node-logging-winston/
 - https://github.com/winstonjs/winston
 
 [ <b>On Progress...</b> - `additional-winston` branch ]
