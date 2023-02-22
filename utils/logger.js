@@ -2,7 +2,7 @@
 const winston = require("winston");
 
 const logger = winston.createLogger({
-  level: 'info',
+  level: process.env.LOG_LEVEL || 'info',
   format: winston.format.json(),
   transports: [
     // Write all logs with importance level of `error` or less to `error.log`
