@@ -5,6 +5,8 @@ const logger = winston.createLogger({
   level: process.env.LOG_LEVEL || 'info',
   format: winston.format.json(),
   transports: [
+    new winston.transports.Console(),
+
     // Write all logs with importance level of `error` or less to `error.log`
     new winston.transports.File({ filename: 'error.log', level: 'error' }),
 
