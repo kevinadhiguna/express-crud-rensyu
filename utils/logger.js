@@ -1,3 +1,12 @@
+/**
+ * The following transport options are available in Winston by default:
+ * 
+ * 1) Console: output logs to the Node.js console.    -> new winston.transports.Console()
+ * 2) File: store log messages to one or more files.  -> new winston.transports.File()
+ * 3) HTTP: stream logs to an HTTP endpoint.          -> new winston.transports.HTTP()
+ * 4) Stream: output logs to any Node.js stream.      -> new winston.transports.Stream()
+ */
+
 // -- Version 3 --
 const winston = require("winston");
 const { combine, timestamp, json } = winston.format;
