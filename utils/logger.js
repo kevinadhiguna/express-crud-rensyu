@@ -9,11 +9,18 @@
 
 // -- Version 3 --
 const winston = require("winston");
-const { combine, timestamp, json } = winston.format;
+const { combine, error, timestamp, json } = winston.format;
 
 const logger = winston.createLogger({
   level: process.env.LOG_LEVEL || 'info',
-  format: combine(timestamp(), json()),
+  format: combine(error({ stack: true }), timestamp(), json()),
+  // Example output by including 'error({ stack: true })' :
+  // {
+  //   "level": "error",
+  //   "message": "an error",
+  //   "stack": "Error: an error\n    at Object.<anonymous> (/home/ayo/dev/betterstack/betterstack-community/demo/snippets/main.js:9:14)\n    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Module._load (node:internal/modules/cjs/loader:827:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)\n    at node:internal/main/run_main_module:17:47",
+  //   "timestamp": "2022-07-03T20:11:23.303Z"
+  // }
   transports: [
     new winston.transports.Console(),
   ],
